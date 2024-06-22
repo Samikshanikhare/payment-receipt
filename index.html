@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment bill</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        .logo{
+            display: block;
+            margin: 0 auto;
+        }
+
+        .receipt {
+            background-color: white;
+            width: 80%;
+            border: 1px solid gray;
+            margin: 0px auto;
+            ;
+        }
+
+        .company-name {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .company-address {
+            font-size: 15px;
+            text-align: right;
+            margin-right: 10px;
+            border-bottom: 1px solid gray;
+        }
+
+        .payment-receipt {
+            font-size: 30px;
+            text-align: center;
+
+        }
+
+        .receipt-details {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .receipt-key {
+            color: gray;
+        }
+
+        .receipt-value {
+            font-weight: bold;
+        }
+        .receipt-body{
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            width: 100%;
+            background-color: gray;
+        }
+        .receipt-content{
+            display: flex;
+            justify-content: space-around;
+        }
+        .receipt-footer{
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</body>
+<div class="receipt">
+    <img src="logo.webp" alt="logo" height="100px" class="logo">
+    <h2 class="company-name">Shutterstocks</h2>
+    <p class="company-address">Kinfra Techno Park<br>Kohinor Palace 160025<br>Mumbai<br> +91-9545671492</p>
+    <div>
+        <h3 class="payment-receipt">Payment Receipt</h3>
+        <div class="receipt-details">
+            <div class="receipt-key">
+                <p>Partner:</p>
+
+            </div>
+            <div class="receipt-value">
+                <p>Agr olait</p>
+            </div>
+            <div class="receipt-key">
+                <p>Invoice Date:</p>
+
+            </div>
+            <div class="receipt-value">
+                <p>16/07/24</p>
+            </div>
+
+            <div class="receipt-key">
+                <p>Due Date:</p>
+
+            </div>
+            <div class="receipt-value">
+                <p>25/10/24</p>
+            </div>
+
+        </div>
+        <div class="receipt-body">
+            <div>
+                <p>INVOICE TOTAL</p>
+            </div>
+            <div>
+                <p>PAID</p>
+            </div>
+            <div>
+                <p>DUE</p>
+            </div>
+        </div>
+        <div class="receipt-content">
+            <div>
+                <p>$650.00</p>
+            </div>
+            <div style="margin-left: 90px;">
+                <p>550.00</p>
+            </div>
+            <div>
+                <p>$100.00$</p>
+            </div>
+
+        </div>
+        <h3 class="payment-receipt">Payment Details</h3>
+        <div class="receipt-body">
+            <div>
+                <p>ID</p>
+            </div>
+            <div>
+                <p>PAYMENT DATE</p>
+            </div>
+            <div>
+                <p>METHOD</p>
+            </div>
+            <div>
+                <p>Amount</p>
+            </div>
+        </div>
+        <div class="receipt-content">
+            <div>
+                <p>INV/0002</p>
+            </div>
+            <div style="margin-left: -50px;">
+                <p>2024-04-02</p>
+            </div>
+            <div>
+                <p>Bank</p>
+            </div>
+            <div>
+                <p>8.56</p>
+            </div>
+            
+
+        </div>
+        <div class="receipt-content">
+            <div>
+                <p>INV/0003</p>
+            </div>
+            <div style="margin-left: -50px;">
+                <p>2024-04-04</p>
+            </div>
+            <div>
+                <p>UPI</p>
+            </div>
+            <div>
+                <p>9.10</p>
+            </div>
+            
+
+        </div>
+        <hr>
+        <div class="receipt-footer">
+            <p>Thank you for your Bussiness!!!!</p>
+        </div>
+       
+
+
+    </div>
+
+</div>
+
+</html>
